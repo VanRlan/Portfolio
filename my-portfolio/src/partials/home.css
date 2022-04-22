@@ -1,0 +1,141 @@
+.van-intro {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+}
+
+.van-intro h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 2em;
+}
+
+.van-aboutMe {
+  display: flex;
+}
+
+/* .van-aboutMe p {
+  max-width: 800px;
+} */
+
+.van-intro img{
+  border-radius: 20%;
+  border: solid 2px black;
+  box-shadow: 5px 10px #888888;
+  margin-left: 20px;
+  width: 200px;
+}
+
+.small-container-2 {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+}
+
+.small-container-2 h2 {
+  color: #333;
+  font-size: 19px;
+}
+
+.small-container-2 input {
+  width: 300px;
+  height: 32px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.col-5 {
+  flex-basis: 25%;
+  padding: 20px 10px;
+}
+
+.items {
+  height: 350px;
+  width: 100%;
+  border-top: 1px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+}
+
+.items:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.product-details:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.product-details {
+  margin-top: -5px;
+  padding: 10px 10px;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.product-btn {
+  background-color: green;
+  color: white;
+  margin-top: 5px;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+.small-container-2 .row-2 {
+  border-bottom: 1px solid silver;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.row-2 {
+  justify-content: space-between;
+  margin: 50px auto 50px;
+}
+
+select {
+  border: 3px solid gold;
+  padding: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .col-5 {
+    flex-basis: 50%;
+    padding: 20px 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .small-container-2 input {
+    margin: 10px 0;
+    border: 1px solid black;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .col-5 {
+    flex-basis: 100%;
+    padding: 20px 10px;
+    text-align: center;
+  }
+}

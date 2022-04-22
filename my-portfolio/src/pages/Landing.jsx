@@ -1,9 +1,12 @@
 import React from "react";
 import "../partials/landing.css";
+import { Link } from 'react-router-dom';
+import Loader from '../components/Loader';
 
 const Landing = () => {
   return (
     <>
+    <Loader />
     <main>
         <div className="landingPageContainer">
           <header className="introduction">
@@ -15,9 +18,9 @@ const Landing = () => {
                 <div className="posterArrow arrow2"></div>
                 <div className="posterArrow arrow3"></div>
             </div>
-            <button className="landingStartButton">
-              <img src="../img/anemo-vision.png" alt="" />
-            </button>
+            <Link to="/home" className="landingStartButton">
+              <img src="../img/IMG_9439.JPG" alt="" />
+            </Link>
           </header>
         </div>
     </main>

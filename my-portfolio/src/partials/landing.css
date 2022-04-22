@@ -75,11 +75,16 @@ a {
     }
 }
 
-.landingStartButton {
+.landingStartButton img{
   border-radius: 80px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
+  border: 2px solid white ;
+}
+
+.landingStartButton img {
+    width: 250px;
 }
