@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../partials/landing.css";
 import { Link } from 'react-router-dom';
-import Loader from '../components/Loader';
+// import Loader from '../components/Loader';
 
 const Landing = () => {
+  // const [showLoader, setShowLoader] = useState(true);
+
+  // useEffect(() => {
+  //   const loadingTimer = setTimeout(() => {
+  //     setShowLoader(false)
+  //   }, 3000)
+  //   return() => clearTimeout(loadingTimer)
+  // }, [])
   return (
     <>
-    <Loader />
+    {/* {showLoader && <Loader />} */}
     <main>
         <div className="landingPageContainer">
           <header className="introduction">
