@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import projects from "../data/projects.json";
 import Footer from "../components/Footer";
-import Loader from '../components/Loader';
+import Loader from "../components/Loader";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -13,14 +13,14 @@ const Home = () => {
 
   useEffect(() => {
     const loadingTimer = setTimeout(() => {
-      setShowLoader(false)
-    }, 3000)
-    return() => clearTimeout(loadingTimer)
-  }, [])
+      setShowLoader(false);
+    }, 3000);
+    return () => clearTimeout(loadingTimer);
+  }, []);
 
   return (
     <>
-    {showLoader && <Loader />}
+      {showLoader && <Loader />}
       <Navbar />
       <div className="van-intro">
         <h3>About Me</h3>
@@ -33,7 +33,9 @@ const Home = () => {
             programming languages such as Html, Css, Javascript, Node.Js, and
             React. I've also learned professional development skills such as
             public speaking, personal branding, time management, team
-            collaboration and to improve my knowledge of not just technical skills but hard and soft skills. Hobbies include drawing, playing video games, watching anime, exercising and coding.
+            collaboration and to improve my knowledge of not just technical
+            skills but hard and soft skills. Hobbies include drawing, playing
+            video games, watching anime, exercising and coding.
           </p>
           <img src="../img/IMG_9439.JPG" alt="" />
         </div>
@@ -62,13 +64,17 @@ const Home = () => {
             })
             .map((project, key) => (
               <div className="col-5" key={key}>
-                <Link to={project.link}>
+                <a target="_blank" href={project.link}>
                   <img src={project.img} className="items" alt="pic" />
-                </Link>
+                </a>
                 <div className="product-details">
                   <h2>{project.title}</h2>
                   <p>{project.description}</p>
-                  <button className="product-btn">Github</button>
+                  <div className="github-btn">
+                    <a target="_blank" href={project.github} className="product-btn">
+                      GitHub
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}

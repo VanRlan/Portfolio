@@ -3,36 +3,42 @@
         "img": "img/Genshin-clone.png",
         "title": "Ecommerce Project",
         "description": "Language: ReactJs",
-        "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/"
-    },
-    {
-        "img": "img/Eat-Smart.png",
-        "title": "Hackathon",
-        "description": "Language: NodeJs",
-        "link": "https://genshin-impact"
+        "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/",
+        "github": "https://github.com/VanRlan/GenshinEcommerceReactVer.git"
     },
     {
         "img": "img/Netflix-Clone.png",
         "title": "Netflix Redesign",
         "description": "Language: ReactJs",
-        "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/"
+        "link": "https://r2h-netflix.herokuapp.com/",
+        "github": "https://github.com/Santosisaac13690/netflix-redesign.git"
+    },
+    {
+        "img": "img/Eat-Smart.png",
+        "title": "Hackathon",
+        "description": "Language: NodeJs",
+        "link": "#",
+        "github": "https://github.com/VanRlan/Hope-Hacks.git"
     },
     {
         "img": "img/guess-num-game.png",
         "title": "Guess The Number",
         "description": "Language: JavaScript",
-        "link": "https://vanrlan.github.io/guess-number-game/"
+        "link": "https://vanrlan.github.io/guess-number-game/",
+        "github": "https://github.com/VanRlan/guess-number-game.git"
     },
     {
         "img": "img/tic-tac-toe.png",
         "title": "Tic Tac Toe",
         "description": "Language: React",
-        "link": "https://van-rlan-tic-tac-toe-r2h.netlify.app/"
+        "link": "https://van-rlan-tic-tac-toe-r2h.netlify.app/",
+        "github": "https://github.com/VanRlan/Tic-Tac-Toe.git"
     },
     {
         "img": "img/Gateway-project.png",
         "title": "Gateway Project",
         "description": "Language: Html & CSS",
-        "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/"
+        "link": "https://vanrlan.github.io/gateway-project/",
+        "github": "https://github.com/VanRlan/gateway-project.git"
     }
 ]
