@@ -11,7 +11,7 @@ const Contact = () => {
         <div class="container-two">
             <div class="formBx">
                 <form>
-                    <h2>Contact Us</h2>
+                    <h2>Contact Me</h2>
                     <div class="inputBox">
                         <input type="text" id="fullName" name="name" required="required"/>
                         <label for="fullName">Full Name</label>
@@ -31,7 +31,7 @@ const Contact = () => {
             </div>
             <div class="imgBx">
                 <img src="../img/shogun_raiden_genshin_impact_portrait_render_by_deg5270_deqwdhv-fullview.png"
-                    alt="Ei Chan :)"/>
+                    alt="#"/>
             </div>
         </div>
     </div>

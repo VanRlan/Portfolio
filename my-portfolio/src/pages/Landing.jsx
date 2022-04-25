@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../partials/landing.css";
 import { Link } from 'react-router-dom';
 // import Loader from '../components/Loader';

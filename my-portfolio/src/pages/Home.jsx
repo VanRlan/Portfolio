@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </div>
       <div className="small-container-2">
-        <div className="row row-2">
+        <div className="van-row">
           <h1>All Projects</h1>
           <input
             type="text"
@@ -50,7 +50,7 @@ const Home = () => {
             }}
           />
         </div>
-        <div className="row">
+        <div className="van-projects-card">
           {projects
             .filter((val) => {
               if (searchTerm === "") {
@@ -63,12 +63,12 @@ const Home = () => {
             })
             .map((project, key) => (
               <div className="col-5" key={key}>
-                <Link to="/ProductInfo">
+                <Link to={project.link}>
                   <img src={project.img} className="items" alt="pic" />
                 </Link>
                 <div className="product-details">
                   <h2>{project.title}</h2>
-                  <button className="product-btn">Learn More</button>
+                  <button className="product-btn">Github</button>
                 </div>
               </div>
             ))}

@@ -2,21 +2,25 @@
     {
         "img": "img/Genshin-clone.png",
         "title": "Ecommerce Project",
-        "description": "My Ecommerce Project"
+        "description": "My Ecommerce Project",
+        "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/"
     },
     {
         "img": "img/Eat-Smart.png",
         "title": "Hackathon",
-        "description": "Eat Smart NodeJs group project"
+        "description": "Eat Smart NodeJs group project",
+        "link": "https://genshin-impact"
     },
     {
         "img": "img/Netflix-Clone.png",
         "title": "Netflix Redesign",
-        "description": "Group project where we redesigned Netflix's website"
+        "description": "Group project where we redesigned Netflix's website",
+        "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/"
     },
     {
-        "img": "img/Netflix-Clone.png",
-        "title": "Netflix Redesign",
-        "description": "Group project where we redesigned Netflix's website"
+        "img": "img/Gateway-project.png",
+        "title": "Gateway Project",
+        "description": "One of my first few projects created using Html and CSS only, it's a tour guide of Japan",
+        "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/"
     }
 ]

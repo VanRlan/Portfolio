@@ -17,8 +17,12 @@
 }
 
 .footer-col-4 {
-    flex-basis: 12%;
     text-align: center;
+}
+
+.footer-col-4 ul li {
+    display: inline-block;
+    margin: 0px 10px 10px;
 }
 
 .footer hr {
