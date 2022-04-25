@@ -68,6 +68,7 @@ const Home = () => {
                 </Link>
                 <div className="product-details">
                   <h2>{project.title}</h2>
+                  <p>{project.description}</p>
                   <button className="product-btn">Github</button>
                 </div>
               </div>

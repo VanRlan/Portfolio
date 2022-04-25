@@ -30,8 +30,8 @@ const Contact = () => {
                 </form>
             </div>
             <div class="imgBx">
-                <img src="../img/shogun_raiden_genshin_impact_portrait_render_by_deg5270_deqwdhv-fullview.png"
-                    alt="#"/>
+                <img src="https://freepngimg.com/thumb/anime/118756-jotaro-png-file-hd.png"
+                    alt="Jotaro-Kujo"/>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../partials/footer.css";
-import * as AiIcons from "react-icons/ai";
-import * as FaIcons from "react-icons/fa";
+// import * as AiIcons from "react-icons/ai";
+// import * as FaIcons from "react-icons/fa";
 
 
 const Footer = () => {
