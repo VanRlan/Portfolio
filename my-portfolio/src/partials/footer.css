@@ -6,6 +6,14 @@
     margin-top: 60px;
 }
 
+.footer a {
+    color: #8a8a8a;
+}
+
+.footer img {
+    width: 35px;
+}
+
 .footer h3 {
     color: #fff;
     margin-bottom: 20px;
