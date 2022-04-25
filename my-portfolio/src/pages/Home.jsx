@@ -33,8 +33,7 @@ const Home = () => {
             programming languages such as Html, Css, Javascript, Node.Js, and
             React. I've also learned professional development skills such as
             public speaking, personal branding, time management, team
-            collaboration and to improve my knowledge of not just technical
-            skills but hard and soft skills.
+            collaboration and to improve my knowledge of not just technical skills but hard and soft skills. Hobbies include drawing, playing video games, watching anime, exercising and coding.
           </p>
           <img src="../img/IMG_9439.JPG" alt="" />
         </div>

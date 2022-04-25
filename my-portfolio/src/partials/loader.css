@@ -33,7 +33,7 @@
   position: absolute;
   top: 500px;
   left: 0;
-  filter: drop-shadow(0 -500px 0 var(--loadingbar-background-color));
+  /* filter: drop-shadow(0 -500px 0 var(--loadingbar-background-color)); */
 }
 .loading-bar::after {
   content: "";
