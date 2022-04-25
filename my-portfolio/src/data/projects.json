@@ -18,6 +18,18 @@
         "link": "https://genshin-impact-ecommerce-vanrlan.netlify.app/"
     },
     {
+        "img": "img/guess-num-game.png",
+        "title": "Guess The Number",
+        "description": "Language: JavaScript",
+        "link": "https://vanrlan.github.io/guess-number-game/"
+    },
+    {
+        "img": "img/tic-tac-toe.png",
+        "title": "Tic Tac Toe",
+        "description": "Language: React",
+        "link": "https://van-rlan-tic-tac-toe-r2h.netlify.app/"
+    },
+    {
         "img": "img/Gateway-project.png",
         "title": "Gateway Project",
         "description": "Language: Html & CSS",
