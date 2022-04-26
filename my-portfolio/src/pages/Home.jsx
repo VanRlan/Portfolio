@@ -23,7 +23,7 @@ const Home = () => {
       {showLoader && <Loader />}
       <Navbar />
       <div className="van-intro">
-        <h3>About Me</h3>
+        <h1>About Me</h1>
         <div className="van-aboutMe">
           <p>
             Junior software engineer working my way into a full-stack developer.
@@ -42,7 +42,7 @@ const Home = () => {
       </div>
       <div className="small-container-2">
         <div className="van-row">
-          <h1>All Projects</h1>
+          <h2>All Projects</h2>
           <input
             type="text"
             placeholder="Search..."
@@ -63,12 +63,12 @@ const Home = () => {
               }
             })
             .map((project, key) => (
-              <div className="col-5" key={key}>
+              <div className="van-cards" key={key}>
                 <a target="_blank" href={project.link}>
                   <img src={project.img} className="items" alt="pic" />
                 </a>
                 <div className="product-details">
-                  <h2>{project.title}</h2>
+                  <h3>{project.title}</h3>
                   <p>{project.description}</p>
                   <div className="github-btn">
                     <a target="_blank" href={project.github} className="product-btn">

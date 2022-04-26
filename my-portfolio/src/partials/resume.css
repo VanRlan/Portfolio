@@ -1,8 +1,10 @@
 .resume {
     /* background-color: rgba(0, 0, 0, 0.2); */
-    background-image: url("https://www.whatspaper.com/wp-content/uploads/2022/02/genshin-impact-wallpaper-whatspaper-3.jpg");
+    /* background-image: url("https://www.whatspaper.com/wp-content/uploads/2022/02/genshin-impact-wallpaper-whatspaper-3.jpg"); */
+    background-image: url("/public/img/haise.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 30% 0px;
 }
 
 .resume a {
