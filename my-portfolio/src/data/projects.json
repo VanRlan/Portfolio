@@ -17,7 +17,7 @@
         "img": "img/Eat-Smart.png",
         "title": "Hackathon",
         "description": "Language: NodeJs",
-        "link": "#",
+        "link": "https://eat-smart-nodejs.herokuapp.com/",
         "github": "https://github.com/VanRlan/Hope-Hacks.git"
     },
     {

@@ -47,7 +47,7 @@
 }
 
 .container-two .formBx form .inputBox {
-    position: relative;
+    /* position: relative; */
     margin-bottom: 70px;
 }
 
@@ -71,11 +71,12 @@
 }
 
 .container-two .formBx form .inputBox input {
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .container-two .formBx form .inputBox textarea {
     height: 50px;
+    padding-top: 20px;
 }
 
 .container-two .formBx form .inputBox input[type="submit"] {
@@ -98,7 +99,7 @@
 }
 
 .container-two .formBx form .inputBox label {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     font-size: 16px;
     font-weight: bold;
